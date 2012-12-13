@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OC cookie feature.
+ */
+
+include_once 'oc_cookie.features.inc';

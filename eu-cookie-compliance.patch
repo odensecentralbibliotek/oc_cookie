@@ -1,0 +1,13 @@
+diff --git a/eu_cookie_compliance.module b/eu_cookie_compliance.module
+index ae01507..cdb968e 100644
+--- a/eu_cookie_compliance.module
++++ b/eu_cookie_compliance.module
+@@ -38,7 +38,7 @@ function eu_cookie_compliance_init() {
+  * Implements hook_preprocess_HOOK().
+  */
+ 
+-function eu_cookie_compliance_preprocess_page() {
++function eu_cookie_compliance_preprocess_html() {
+   $popup_settings = eu_cookie_compliance_get_settings();
+   if (!empty($popup_settings['popup_enabled']) && user_access('display EU Cookie Compliance popup')) {
+     global $language;

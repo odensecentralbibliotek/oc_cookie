@@ -1,0 +1,10 @@
+name = OC cookie
+core = 7.x
+package = OC
+version = 7.x-1.0
+project = oc_cookie
+dependencies[] = eu_cookie_compliance
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = eu_cookie_compliance_da
